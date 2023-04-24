@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\apps",
+    "\\apps\\core",
+    "\\apps\\core\\migrations",
+    "\\apps\\core\\templates",
+    "\\apps\\core\\templates\\core",
+    "\\DHBWSUrviveBackend"
+  ],
+  "SelectedNode": "\\manage.py",
+  "PreviewInSolutionExplorer": false
+}
