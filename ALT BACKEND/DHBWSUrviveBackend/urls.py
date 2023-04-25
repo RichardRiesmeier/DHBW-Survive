@@ -1,5 +1,5 @@
 """
-URL configuration for DHBWSurviveBackend project.
+URL configuration for DHBWSUrviveBackend project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -16,9 +16,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from accounts.views  import user_list
+
+from apps.core.views import frontpage
 
 urlpatterns = [
+    page('', frontpage, name='frontpage'),
     path('admin/', admin.site.urls),
-    path('users/', user_list, name='user_list'),
 ]
